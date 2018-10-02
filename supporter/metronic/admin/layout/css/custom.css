@@ -1,0 +1,132 @@
+/* here you can put your own css to customize and override the theme */
+.search-box-title>p {
+	padding: 10px;
+	background-color: #EEE;
+	margin: 0px;
+	font-size: 14px;
+	font-weight: 300;
+	color: #444;
+}
+
+.search-box-item>a {
+	background-color: #FFFFFF;
+	background-image: none;
+	border-bottom: 1px solid #F4F4F4 !important;
+	border-top: 1px solid white;
+	clear: both;
+	color: #666;
+	cursor: pointer;
+	display: block;
+	filter: none;
+	font-size: 13px;
+	font-weight: 300;
+	line-height: 20px;
+	padding: 10px !important;
+	text-shadow: none;
+	white-space: normal;
+}
+
+.search-form>ul.dropdown-menu:before, .search-form>ul.dropdown-menu:after
+	{
+	border-bottom-color: #EEE !important;
+}
+
+.search-form>ul.dropdown-menu:before {
+	position: absolute;
+	top: -8px;
+	left: 8px;
+	display: inline-block !important;
+	border-right: 7px solid transparent;
+	border-bottom: 7px solid #EEE;
+	border-left: 7px solid transparent;
+	border-bottom-color: rgba(0, 0, 0, 0.2);
+	content: '';
+}
+
+.search-form>ul.dropdown-menu:after {
+	position: absolute;
+	top: -10px;
+	left: 10px;
+	display: inline-block !important;
+	border-right: 6px solid transparent;
+	border-bottom: 6px solid #fff;
+	border-left: 6px solid transparent;
+	content: '';
+}
+
+.typeahead {
+	background-color: #fff;
+}
+
+.tt-hint {
+	color: #999
+}
+
+.tt-menu {
+	width: 100%;
+	margin: -2px 0;
+	padding: 8px 0;
+	background-color: #fff;
+	border: 1px solid #E5E5E5;
+	border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.tt-suggestion {
+	padding: 3px 20px;
+	line-height: 24px;
+}
+
+.tt-suggestion:hover {
+	cursor: pointer;
+	color: #000;
+	background-color: #E5E5E5;
+}
+
+.tt-suggestion.tt-cursor {
+	color: #000;
+	background-color: #E5E5E5;
+}
+
+.tt-suggestion p {
+	margin: 0;
+}
+
+.page-header.navbar .hor-menu .navbar-nav>li .dropdown-menu li>a {
+	font-size: 12px;
+	font-weight: normal;
+	padding: 6px 8px;
+}
+
+.page-footer .page-footer-inner {
+	display: inline-flex !important;
+	width: calc(100% - 30px);
+}
+
+.page-footer-tools {
+	width: 26px;
+}
+
+.page-footer-copy-isg {
+	display: inline-flex;
+	padding: 3px 0px 3px 0px;
+	width: 160px;
+}
+
+.page-footer-tabs-isg {
+	display: inline-flex;
+	margin-left: 6px;
+	overflow: hidden;
+	width: calc(100% - 64px - 44px);
+}
+
+.btn-tab-sociall {
+	background-color: #F0F0F0;
+	border: 1px solid #4B77BE;
+	color: #333333;
+}
+
+.btn-tab-sociall:hover {
+	background-color: #D0D0D0;
+	border: 1px solid #4B77BE;
+	color: #333333;
+}
